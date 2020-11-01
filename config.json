@@ -1,0 +1,31 @@
+{
+	"FromBINS":{
+		"type" : "udp",
+		"receiver":{
+			"port": "4004",
+			"frequency": 20
+		}
+	},
+	"ToBINS":{
+		"type": "udp",
+		"sender":{
+			"port": "4005",
+			"ip": "127.0.0.1",
+			"frequency": "1"
+		}
+	},
+	"FromSNS":{
+		"type" : "udp",
+			"receiver":{
+				"port": "4006",
+				"frequency": "1"
+			}
+	},
+	"FromLag":{
+		"type" : "udp",
+			"receiver":{
+				"port": "4007",
+				"frequency": "1"
+			}
+	}
+}
